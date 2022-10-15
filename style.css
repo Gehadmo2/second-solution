@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 0;
+}
+main{
+    display: flex;
+        width: 500px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+}
+img{
+    width: 50%;
+        height: 400px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+}
+h2 {
+    position: inherit;
+    left: 10px;
+    max-width: 145px;
+}
+.sa{
+    position: inherit;
+    left: 10px;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+.parent{
+        width: 50%;
+            height: 400px;
+            background-color: white;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 15px;
+}
+p{
+    color: #aaaaaa;
+    position: inherit;
+    left: 10px;
+    max-width: 185px;
+    margin-bottom: 20px;
+    
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+        color: white;
+        border: none;
+        padding: 12px;
+        width: 215px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    
+button:hover{
+    cursor: pointer;
+}
+.money{
+    font-size: 35px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    padding-right: 10px;
+    margin: 5px;
+}
